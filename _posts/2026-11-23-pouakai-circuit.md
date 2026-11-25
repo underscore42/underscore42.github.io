@@ -8,7 +8,7 @@ tags: [taranaki, tramping, pouakai]
 
 Not NGPC this time. Three days on the Pouakai Circuit, Taranaki, 21–23 November 2026.
 
-{% assign img = "/assets/img/2026-11-pouakai/" | relative_url %}
+{% assign img = "/" | relative_url %}
 
 ![Route]({{ img }}route-map.png)
 
