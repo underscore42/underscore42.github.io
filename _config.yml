@@ -2,3 +2,5 @@ title: Studio So Not Kansai
 description: "NGPC homebrew devlog, and the odd random walk. Powered by Brownian motion and a strong cup of tea."
 theme: minima
 permalink: /:year/:month/:title/
+plugins:
+  - jekyll-feed
