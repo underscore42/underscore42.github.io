@@ -23,6 +23,8 @@ document.querySelectorAll('.post-content p').forEach(function (p) {
     img.loading = 'lazy';
     img.parentNode.insertBefore(fig, img);
     fig.appendChild(img);
+    var mark = function () { if (imgs.length <= 2 && img.naturalHeight > img.naturalWidth * 1.3) fig.classList.add('tall'); };
+    if (img.complete) mark(); else img.addEventListener('load', mark);
     if (img.alt) {
       var cap = document.createElement('figcaption');
       cap.textContent = img.alt;
