@@ -70,7 +70,6 @@ Evening, second visit:
 ![How High is Henry?]({{ img }}22-henry-peak-sign.jpg)
 ![Ranger drop-off]({{ img }}23-helicopter.jpg)
 ![Max load 1 person]({{ img }}25-max-load-sign.jpg)
-![Watch at the sign]({{ img }}26-watch-finish.jpg)
 ![Back at North Egmont]({{ img }}28-back-at-north-egmont.jpg)
 
 ## Numbers
@@ -82,6 +81,7 @@ Evening, second visit:
 | 3 | 11.6 km | 5 h 21 m |
 | **Total** | **35.7 km** | **14 h 51 m** |
 
+![Five hours on the watch at the car park sign]({{ img }}26-watch-finish.jpg)
 ![Watch training records]({{ img }}watch-stats.png)
 
 Watch GPS on steep, twisty track. Treat the distances as close, not exact.
