@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Shippori+Mincho+B1:wght@700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="card-link" href="https://github.com/underscore42/" title="Studio So Not Kansai on GitHub">
+        <img class="card" src="https://raw.githubusercontent.com/underscore42/underscore42/main/So%20Not%20Kansai%20-%20Card.png" alt="So Not Kansai card">
+      </a>
+      <div class="masthead-text">
+        <a class="site-title" href="https://github.com/underscore42/">Studio So Not Kansai</a>
+        <p class="tagline">{{ site.description }}</p>
+        <nav class="nav">
+          <a href="{{ '/' | relative_url }}">Posts</a>
+          <a href="https://github.com/underscore42/">Games on GitHub</a>
+        </nav>
+      </div>
+      <span class="seal" aria-hidden="true"><span>不</span><span>関</span><span>西</span></span>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <a class="footer-name" href="https://github.com/underscore42/">Studio So Not Kansai <span class="footer-jp">ソーノット関西</span></a>
+      <span>Steven MacDonald · <a href="mailto:steven@sonotkansai.com">steven@sonotkansai.com</a> · <a href="https://github.com/underscore42/">github.com/underscore42</a> · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></span>
+    </div>
+  </footer>
+</body>
+</html>
