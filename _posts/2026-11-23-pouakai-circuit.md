@@ -4,6 +4,7 @@ title: "Pouakai Circuit, three days"
 date: 2026-11-23
 categories: [off-cart]
 tags: [taranaki, tramping, pouakai]
+image: /16-tarn-reflection.jpg
 ---
 
 Not NGPC this time. Three days on the Pouakai Circuit, Taranaki, 21–23 November 2026.
